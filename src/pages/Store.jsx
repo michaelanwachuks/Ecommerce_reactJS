@@ -1,7 +1,9 @@
 import React from 'react'
 import {Row, Col} from 'react-bootstrap';
+import './style.css';
 import { productsArray } from '../products';
-
+import ProductCard from '../components/ProductCard';
+ 
 function Store() {
   return (
     <div>
@@ -11,8 +13,7 @@ function Store() {
         <Row xs={1} md={4} className='g-4'>
             {productsArray.map((product,idx) =>(
              <Col align ="center">
-             <h2>{product.productName}</h2>
-             <h6>${product.price}</h6>
+              <ProductCard product={product} />
             </Col>
             ))}
             
