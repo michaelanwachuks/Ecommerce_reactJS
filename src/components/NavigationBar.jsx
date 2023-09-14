@@ -1,5 +1,7 @@
 import React from 'react'
 import {Button, Container, Navbar, Modal } from 'react-bootstrap';
+
+
 function NavigationBar() {
   return (
     <div>
