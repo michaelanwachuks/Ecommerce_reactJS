@@ -8,7 +8,7 @@ function NavigationBar() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
   return (
-    <>
+    <Container>
      <Navbar expand="sm">
      <Navbar.Brand  href="/">Ecommerce Logo</Navbar.Brand>
      <Navbar.Toggle />
@@ -25,7 +25,7 @@ function NavigationBar() {
         </Modal.Body>
      </Modal>
 
-    </>
+    </Container>
   )
 }
 

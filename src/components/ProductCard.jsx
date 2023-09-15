@@ -1,6 +1,9 @@
 import React from 'react'
 import { Card, Button, Form, Row, Col } from 'react-bootstrap'
 import './card.css';
+import { CartContext } from '../cartContext';
+import { useContext } from 'react';
+
 
 function ProductCard(props) {
     const product = props.product;
