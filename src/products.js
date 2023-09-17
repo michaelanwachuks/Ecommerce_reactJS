@@ -2,6 +2,10 @@ import product1 from './assets/product1.webp';
 import laptop from './assets/laptop.webp';
 import samsung from './assets/samsung-s23.webp';
 import applewatch from './assets/applewatch.jpg';
+import mackbook from './assets/macbookair.jpg';
+import pullover from './assets/pullover.webp';
+import jacket2 from './assets/jacket2.webp';
+import jacket3  from './assets/jacket3.webp';
 
 
 
@@ -29,6 +33,30 @@ const productsArray = [
         productName : "Apple watch",
         productImage: applewatch,
         price : 100.0
+    },
+    {
+        id : "5",
+        productName : "Apple Mackbook",
+        productImage: mackbook,
+        price : 1000.0
+    },
+    {
+        id : "6",
+        productName : "Sweatshirt",
+        productImage: pullover,
+        price : 150.0
+    },
+    {
+        id : "7",
+        productName : "Jacket",
+        productImage: jacket2,
+        price : 200.0
+    },
+    {
+        id : "8",
+        productName : "Winter stylish Jacket",
+        productImage: jacket3,
+        price : 140.0
     }
 ];
 
