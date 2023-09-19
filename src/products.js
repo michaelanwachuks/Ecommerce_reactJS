@@ -12,7 +12,7 @@ import jacket3  from './assets/jacket3.webp';
 const productsArray = [
     {
         id : "1",
-        productName : "Smart phone",
+        productName : "Iphone 13",
         productImage : product1,
         price : 100.0
     },
@@ -24,7 +24,7 @@ const productsArray = [
     },
     {
         id : "3",
-        productName : "samsung 23",
+        productName : "Samsung Galaxy_23",
         productImage : samsung,
         price : 30.0
     },
