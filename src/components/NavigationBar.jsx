@@ -4,6 +4,7 @@ import {Button, Container, Navbar, Modal } from 'react-bootstrap';
 import { CartContext } from '../cartContext';
 import { useContext } from 'react';
 import ProductsInCart from './ProductsInCart';
+import navigationBar from './navigationBar.css';
 
 
 
@@ -18,9 +19,9 @@ function NavigationBar() {
   return (
     <Container>
      <Navbar expand="sm">
-     <Navbar.Brand  href="/">Ecommerce Logo</Navbar.Brand>
+     <Navbar.Brand  href="/"><h1 className='logostyle'>Mike<span >Mall</span></h1></Navbar.Brand>
      <Navbar.Toggle />
-     <Navbar.Collapse className = "justify-content-end" >
+     <Navbar.Collapse className = "justify-content-end">
      <Button onClick={handleShow}>Cart {productsCount} items</Button>
      </Navbar.Collapse>
      </Navbar>
@@ -40,7 +41,7 @@ function NavigationBar() {
                 
             ))}
              
-            <h1>Total:{cart.getTotalCost().toFixed(2)}</h1>
+            <h1>Total: &euro;{cart.getTotalCost().toFixed(2)}</h1>
             <Button variant='success'>Checkout</Button>
             </>
             :

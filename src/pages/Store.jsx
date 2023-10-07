@@ -8,7 +8,7 @@ import ImageSlider from '../components/ImageSlider';
 function Store() {
   return (
     <div>
-        <h1>Welcome to our online Mall</h1>
+        <h1 className='firstheading'>Welcome to our online Mall</h1>
         <p>Explore our list of Products</p>
         <hr/>
         <ImageSlider/>

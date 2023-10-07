@@ -1,0 +1,18 @@
+.logostyle{
+    color: red;
+    font-family: Brush Script MT, cursive;
+    font-weight:bold;
+    font-size: 40px;
+}
+ 
+
+ .logostyle span{
+    color:blue;
+    font-family: Brush Script MT, cursive;
+    font-weight:bold;
+    font-size: 40px;
+ }
+
+ .firstheading{
+    font-family: Papyrus;
+ }

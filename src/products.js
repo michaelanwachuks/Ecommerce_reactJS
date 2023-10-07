@@ -14,29 +14,29 @@ const productsArray = [
         id : "1",
         productName : "Iphone 13",
         productImage : product1,
-        price : 100.0
+        price : 1300.0
     },
     {
         id : "2",
         productName : "Utra slim Laptop",
         productImage : laptop,
-        price : 50.0,
+        price : 500.0,
     },
     {
         id : "3",
         productName : "Samsung Galaxy_23",
         productImage : samsung,
-        price : 30.0
+        price : 1400.0
     },
     {
         id : "4",
         productName : "Apple watch",
         productImage: applewatch,
-        price : 100.0
+        price : 600.0
     },
     {
         id : "5",
-        productName : "Apple Mackbook",
+        productName : "Apple Macbook",
         productImage: mackbook,
         price : 1000.0
     },

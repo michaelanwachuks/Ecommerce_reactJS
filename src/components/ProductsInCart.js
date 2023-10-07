@@ -15,7 +15,7 @@ function ProductsInCart(props) {
      <h4>{productData.productName}</h4>
      <span><img src={productData.productImage} style={{width:30,height:30}} /></span>
      <p>{quantity} total</p>
-     <p>${(quantity*productData.price).toFixed(2)}</p>
+     <p>&euro;{(quantity*productData.price).toFixed(2)}</p>
      <Button size ='sm' variant='warning' onClick={()=>cart.deleteFromCart(id)}>Remove From Cart</Button>
      <hr/>
      </>
