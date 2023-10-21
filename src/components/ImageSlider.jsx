@@ -22,15 +22,15 @@ import imageslider from './imageslider.css';
  　　　      </Carousel.Item>
  　　　      <Carousel.Item className='slide'>
  　　　        <img
- 　　　          className="d-block w-100"
- 　　　          src={process.env.PUBLIC_URL + 'bg2.jpg'}
+ 　　　          className="d-block w-100" height="250"
+ 　　　          src={sales}
  　　　          alt="Second slide"
  　　　        />
  　　　      </Carousel.Item>
  　　　      <Carousel.Item className='slide'>
  　　　        <img
- 　　　          className="d-block w-100"
- 　　　          src={process.env.PUBLIC_URL + 'bg3.jpg'}
+ 　　　          className="d-block w-100" height="250"
+ 　　　          src={sales}
  　　　          alt="Third slide"
  　　　        />
  　　　      </Carousel.Item>
